@@ -1,10 +1,6 @@
 package TestString;
 
 public class StringTest {
-        public static void main(String[] args) {
-            Test2();
-        }
-
         /**
          * 1.测试String类型的创建；
          * 2.测试String的字面值的使用；

@@ -1,14 +1,13 @@
 package TestString;
 
 public class StringBufferTest {
-    public static void main(String[] args) {
-        Test1();
-        //FindSubStringTime();
-    }
 
-    private  static void Test1()
+    /**
+     * 测试StringBuffer的常规接口使用
+     */
+    public  static void Test1()
     {
-        String s = "Microsoft";
+        String s = "Microsoft--";
         char[] a = {'a', 'b', 'c', 'd'};
         StringBuffer sb1 = new StringBuffer(s);
         System.out.println("the length of sb1:" + sb1.length());
@@ -31,7 +30,7 @@ public class StringBufferTest {
     /**
      * 查找一个子字符串在字符串中出现的次数
      */
-    private  static void FindSubStringTime()
+    public  static void FindSubStringTime()
     {
         String s = "sun java sun java sun java sun java";
         String find = "java";
