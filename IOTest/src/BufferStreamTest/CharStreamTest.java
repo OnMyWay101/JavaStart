@@ -9,6 +9,7 @@ public class CharStreamTest {
     public static void Test()
     {
         try {
+
             BufferedWriter bw = new BufferedWriter(new FileWriter("F:\\test.txt"));
             BufferedReader br = new BufferedReader(new FileReader("F:\\test.txt"));
 
