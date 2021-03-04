@@ -1,9 +1,15 @@
 import CreateAndStart.TestThread1;
 import StatusControlTest.*;
+import SynchronizedTest.ReadableTest;
+import SynchronizedTest.TestDeadLock;
+import SynchronizedTest.TestSyn;
 
 public class Main {
     public static void main(String[] args) {
-        TestRunner2.Test();
+        ReadableTest.Test();
+        //TestDeadLock.Test();
+        //TestSyn.Test();
+        //TestRunner2.Test();
         //TestYield.Test();
         //TestJoin.Test();
         //TestInterrupt.Test();
